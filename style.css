@@ -18,6 +18,14 @@ h1, h2 {
     
 }
 
+.pag-interna h1, .pag-interna h2 {
+    text-align: left;
+}
+
+.pag-interna p {
+    padding-bottom: 35px;
+}
+
 .colunas {
     width: 163px;
     height: 163px;
@@ -28,8 +36,7 @@ h1, h2 {
 .colunas-icones {
     background-color: #f2af29;
     border-radius: 163px;
-   padding: 36px 0;
-    box-sizing: border-box;
+    padding: 36px 0;
     margin-bottom: 20px;
 }
 
@@ -42,11 +49,6 @@ h1, h2 {
     box-sizing: border-box;
 }
 
-.rodape-divisao {
-    width: 51px;
-    
-}
-
 
 
 #topo {
@@ -55,24 +57,22 @@ h1, h2 {
     position: absolute;
 }
 
-#logo {
-    float: left;
-    margin-top: 30px;
+
+#topo .container {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-#menu {
-    float: right;
-}
 
 #menu a {
-    display: inline-block;
     font-family: 'Libre Baskerville', serif;
     color: #000000;
     text-decoration: none;
     margin-left: 45px;
-    margin-top: 40px;
     
-}
+} 
 
 #menu a:hover {
     text-decoration: underline;
@@ -88,21 +88,21 @@ h1, h2 {
     width: 1000px;
     text-align: center;
     margin: 0 auto;
-    margin-bottom: 50px;
-     
+    margin-bottom: 100px;
+    
 }
 
 #apresentacao p {
     text-align: left;
     line-height: 24px;
     margin: 0;
-    margin-bottom: 50px;
 }
 
 #apresent-flex {
     width: 1000px;
     display: flex;
     justify-content: space-between;
+
     
 }
 
@@ -111,18 +111,32 @@ h1, h2 {
     
 }
 
-hr {
-    border: solid 3px #f2af29; 
+
+
+#banner-interno {
+    width: 100%;
+    height: 400px;
+    background-image: url(img/banner-quem-somos.jpg);
+    background-position: right;
+}
+
+
+
+#rodape {
+    border-top: solid 3px #f2af29;
     
 }
 
-#rodape {
-    width: 1000px;
-    margin: 0 auto;
+
+#rodape .container {
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-#rodape img {
-    float: right;
+#icones-rdp a {
+    margin-left: 25px;
 }
 
 
