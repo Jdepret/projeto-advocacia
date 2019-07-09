@@ -4,9 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <title>A&D Associados</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap" rel="stylesheet">
 
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"> </script>
+    <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"> </script>
+
+
+
+    <script>
+        $(function($) {
+            $(".card").flip({
+
+                trigger: 'hover'
+            });
+        });
+    </script>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -32,42 +45,125 @@
     </header>
 
     <div id="banner-interno">
-    
+
     </div>
-    
+
     <article id="apresentacao" class="pag-interna">
-        
+
         <h1>Quem Somos</h1>
-        
+
         <p>In volutpat bibendum mauris, vel ultrices justo bibendum quis. Phasellus auctor nisl nisi. In porta sem quis ex blandit bibendum. Phasellus lobortis maximus bibendum. Aenean vel dolor vitae libero dapibus hendrerit et eu sem. Vestibulum varius risus in lorem ullamcorper, eu vestibulum ipsum porttitor. Aenean euismod, ligula sed tempus ornare, leo velit euismod erat, quis ullamcorper risus felis at nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc pulvinar turpis vel elit tristique molestie. Nam consectetur dapibus diam, eget mollis urna luctus quis. Nunc pretium hendrerit eleifend. Mauris ut viverra nulla. </p>
-        
+
         <p>Donec eleifend urna in enim suscipit facilisis ut sed enim. Mauris id feugiat tellus. Nulla ultricies nec est nec lobortis. Integer sed luctus tortor. Vestibulum pellentesque suscipit faucibus. Quisque egestas magna vitae nibh egestas sagittis. Nam maximus accumsan ornare. Pellentesque laoreet consequat ex, eget pellentesque dui condimentum id. Mauris feugiat mattis justo, vel semper ipsum euismod vitae. Fusce at porta sem. Sed porttitor eget magna id rhoncus. Sed egestas metus lacus, eu viverra dui lacinia nec. Aliquam erat volutpat. Etiam cursus neque a diam rhoncus consequat.</p>
-        
-        
+
+
         <section id="equipe">
-            
+
             <h2>Equipe</h2>
-            
+
+           
+           <div class="flex">
+            <div class="card">
+
+                <div class="front">
+                    <img src="img/equipe_trabalhista.jpg" alt="">
+                </div>
+
+                <div class="back">
+                    <h3>Lorem Ipsum</h3>
+                    <h4>Trabalhista</h4>
+                    <p>Donec eleifend urna in enim suscipit facilisis ut sed enim. Mauris id feugiat tellus. Nulla ultricies nec est nec lobortis. Integer sed luctus tortor. Vestibulum pellentesque suscipit faucibus. Quisque egestas magna vitae nibh egestas sagittis. Nam maximus accumsan ornare. </p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <div class="front">
+                    <img src="img/equipe_familia.jpg" alt="">
+                </div>
+
+                <div class="back">
+                    <h3>Lorem Ipsum</h3>
+                    <h4>Família</h4>
+                    <p>Donec eleifend urna in enim suscipit facilisis ut sed enim. Mauris id feugiat tellus. Nulla ultricies nec est nec lobortis. Integer sed luctus tortor. Vestibulum pellentesque suscipit faucibus. Quisque egestas magna vitae nibh egestas sagittis. Nam maximus accumsan ornare. </p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <div class="front">
+                    <img src="img/equipe_ambiental.jpg" alt="">
+                </div>
+
+                <div class="back">
+                    <h3>Lorem Ipsum</h3>
+                    <h4>Ambiental</h4>
+                    <p>Donec eleifend urna in enim suscipit facilisis ut sed enim. Mauris id feugiat tellus. Nulla ultricies nec est nec lobortis. Integer sed luctus tortor. Vestibulum pellentesque suscipit faucibus. Quisque egestas magna vitae nibh egestas sagittis. Nam maximus accumsan ornare. </p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <div class="front">
+                    <img src="img/equipe_criminal.jpg" alt="">
+                </div>
+
+                <div class="back">
+                    <h3>Lorem Ipsum</h3>
+                    <h4>Criminal</h4>
+                    <p>Donec eleifend urna in enim suscipit facilisis ut sed enim. Mauris id feugiat tellus. Nulla ultricies nec est nec lobortis. Integer sed luctus tortor. Vestibulum pellentesque suscipit faucibus. Quisque egestas magna vitae nibh egestas sagittis. Nam maximus accumsan ornare. </p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <div class="front">
+                    <img src="img/equipe_contratual.jpg" alt="">
+                </div>
+
+                <div class="back">
+                    <h3>Lorem Ipsum</h3>
+                    <h4>Contratual</h4>
+                    <p>Donec eleifend urna in enim suscipit facilisis ut sed enim. Mauris id feugiat tellus. Nulla ultricies nec est nec lobortis. Integer sed luctus tortor. Vestibulum pellentesque suscipit faucibus. Quisque egestas magna vitae nibh egestas sagittis. Nam maximus accumsan ornare. </p>
+
+                </div>
+
+
+
+            </div>
+
+
+            </div>
+
+
         </section>
-        
+
     </article>
 
-    
 
-    
+
+
     <footer id="rodape">
-        
+
         <div class="container">
 
-       <div id="texto-rdp"> Av. Rio Branco, 156 Sl 000 - Centro, Rio de Janeiro - RJ (21) 2532-3524 </div>
+            <div id="texto-rdp"> Av. Rio Branco, 156 Sl 000 - Centro, Rio de Janeiro - RJ (21) 2532-3524 </div>
 
-        <div id="icones-rdp">
-        <a href=""><img src="img/icone-linkedin.png" alt=""></a>
-        <a href=""><img src="img/icone-facebook.png" alt=""></a>
-        <a href=""><img src="img/icone-instagram.png" alt=""></a>
+            <div id="icones-rdp">
+                <a href=""><img src="img/icone-linkedin.png" alt=""></a>
+                <a href=""><img src="img/icone-facebook.png" alt=""></a>
+                <a href=""><img src="img/icone-instagram.png" alt=""></a>
+            </div>
+
         </div>
-
-    </div>
 
     </footer>
 
