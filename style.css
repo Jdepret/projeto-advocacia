@@ -132,21 +132,19 @@ textarea {
     width: auto;
     height: 165px;
     flex-wrap: wrap;
+    line-height: 24px;
     
 }
 
-.texto-atuacao {
-    width: 812px;
-    height: 164px;
-    
-}
 
-.texto-atuacao h2 {
+.atuacao-icones h2 {
     font-size: 24px;
     text-decoration: underline;
     text-decoration-color: #f2af29;
     margin: 0;
 }
+
+
 
 
 #topo {
@@ -173,6 +171,13 @@ textarea {
 } 
 
 #menu a:hover {
+    text-decoration: underline;
+    text-decoration-color: #000000;
+    color: #f2af29;
+}
+
+
+#menu a:active {
     text-decoration: underline;
     text-decoration-color: #000000;
     color: #f2af29;
@@ -217,16 +222,6 @@ textarea {
 }
 
 
-#atuacao-flex {
-    width: 1000px;
-    height: 1100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    
-    
-    
-}
 
 #formulario {
     width: 1000px;
